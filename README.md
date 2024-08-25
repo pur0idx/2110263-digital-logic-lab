@@ -1,2 +1,2 @@
-# 2110263-digital-logic-lab
-2110263 Digital Computer Logic Laboratory
+# 2110263 Digital Computer Logic Laboratory
+Problems and Answers from Semester 1/2024
