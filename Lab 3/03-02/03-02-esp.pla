@@ -1,0 +1,17 @@
+A = ;
+
+B = (!In2&In1&In0) | (In2&In1&In0) | (!In1&!In0) | (!In2&!In1&In0) | (
+    In2&!In1) | (In1&!In0);
+
+C = (In2&!In1&!In0) | (In2&In1&In0) | (!In2&!In1&In0) | (In1&!In0);
+
+D = ;
+
+E = (!In2&In1&In0) | (!In2&!In1&In0) | (In2&!In1);
+
+F = (!In2&In1&!In0) | (!In2&In1&In0) | (!In1&!In0) | (In2&!In1);
+
+G = (!In2&In1&!In0) | (In2&!In1&!In0) | (In2&In1&In0);
+
+H = (In2&!In1&!In0) | (!In2&!In1&In0) | (In1&!In0);
+

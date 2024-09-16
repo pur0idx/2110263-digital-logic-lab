@@ -1,0 +1,16 @@
+A = (In2&In1&In0) | (!In2&In1) | (In2&!In1&In0) | (!In2&!In0) | (In2&In1
+    &!In0) | (In3);
+
+B = (!In2&In0) | (!In1&!In0) | (In2&In1&In0) | (!In2&!In0);
+
+C = (!In2&In0) | (!In1&!In0) | (In2&In1&In0) | (In2&!In1&In0) | (In2&In1
+    &!In0);
+
+D = (!In2&In1) | (In2&!In1&In0) | (!In2&!In0) | (In2&In1&!In0) | (In3);
+
+E = (!In2&!In0) | (In2&In1&!In0);
+
+F = (!In1&!In0) | (In2&In1&In0) | (In2&!In1&In0) | (In2&In1&!In0) | (In3);
+
+G = (In2&!In1) | (!In2&In1) | (In2&In1&!In0) | (In3);
+
