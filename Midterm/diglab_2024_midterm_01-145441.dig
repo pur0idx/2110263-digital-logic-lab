@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>out1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>in</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>out2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LookUpTable</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>0,1,1,0,0,1,0,0,0,1,1,0,0,1,1</data>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LookUpTable</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Data</string>
+          <data>1,0,0,1,1,0,4*1,0,1,1,0,0,1</data>
+        </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="680"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="1100" y="640"/>
+      <p2 x="1160" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="800"/>
+      <p2 x="1160" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="580"/>
+      <p2 x="1160" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="740"/>
+      <p2 x="1100" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="740"/>
+      <p2 x="1320" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="740"/>
+      <p2 x="1120" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="680"/>
+      <p2 x="1000" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="680"/>
+      <p2 x="1040" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="680"/>
+      <p2 x="1320" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="680"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="840"/>
+      <p2 x="1160" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="780"/>
+      <p2 x="1160" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="620"/>
+      <p2 x="1260" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="720"/>
+      <p2 x="1080" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="720"/>
+      <p2 x="1100" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="660"/>
+      <p2 x="1160" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="820"/>
+      <p2 x="1260" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="600"/>
+      <p2 x="1160" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="700"/>
+      <p2 x="940" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1020" y="700"/>
+      <p2 x="1060" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="700"/>
+      <p2 x="1080" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="860"/>
+      <p2 x="1160" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1120" y="660"/>
+      <p2 x="1120" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="680"/>
+      <p2 x="1040" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="580"/>
+      <p2 x="1060" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="700"/>
+      <p2 x="1060" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="600"/>
+      <p2 x="1080" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="720"/>
+      <p2 x="1080" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="940" y="680"/>
+      <p2 x="940" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="640"/>
+      <p2 x="1100" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="740"/>
+      <p2 x="1100" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="620"/>
+      <p2 x="1260" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1260" y="740"/>
+      <p2 x="1260" y="820"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
